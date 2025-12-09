@@ -141,7 +141,24 @@ OPENAI_API_KEY=your-openai-key
 
 ## 📊 Usage
 
-### Setup Google Sheets
+### Web Interface (Recommended for Replit)
+
+**Start the web interface:**
+```bash
+python app.py
+```
+
+Then open your browser to `http://localhost:5000` to access the dashboard.
+
+The web interface provides:
+- System status monitoring
+- Employee management
+- Quick actions (setup sheets, run search)
+- Real-time updates
+
+### Command Line Interface
+
+**Setup Google Sheets:**
 
 Run once to create sheet templates:
 
@@ -162,7 +179,12 @@ In Google Sheets "Mitarbeiter" tab, add employee data:
 
 ### Run Application
 
-**One-time run:**
+**Web Interface (recommended):**
+```bash
+python app.py
+```
+
+**One-time run (CLI):**
 ```bash
 python -m src.main
 ```
